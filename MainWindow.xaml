@@ -1,0 +1,15 @@
+﻿<Window x:Class="WPFVisuals.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFVisuals"
+        mc:Ignorable="d"
+        Title="Visuals" Height="450" Width="800">
+	<DockPanel>
+		<Border BorderThickness="1" BorderBrush="Blue" HorizontalAlignment="Center" VerticalAlignment="Center">
+			<!--https://tarundotnet.wordpress.com/2011/05/19/wpf-tutorial-drawing-visual/-->
+			<local:DrawIt Width="100" Height="100" Visibility="Visible"/>
+		</Border>
+	</DockPanel>
+</Window>
